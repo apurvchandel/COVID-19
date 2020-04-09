@@ -47,11 +47,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/contactNoEditText"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/nameEditText"
         android:layout_width="272dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
@@ -65,7 +65,8 @@
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="16dp"
-        android:textColorHint="#000000"
+        android:singleLine="true"
+        android:textColorHint="#96000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +89,8 @@
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="16dp"
-        android:textColorHint="#000000"
+        android:singleLine="false"
+        android:textColorHint="#96000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +100,7 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/contactNoEditText"
         android:layout_width="274dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
@@ -112,7 +114,8 @@
         android:importantForAutofill="no"
         android:inputType="number|text|phone"
         android:padding="12dp"
-        android:textColorHint="#000000"
+        android:singleLine="true"
+        android:textColorHint="#96000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.523"
@@ -137,13 +140,14 @@
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="16dp"
-        android:textColorHint="#000000"
+        android:singleLine="true"
+        android:textColorHint="#96000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/contactNoEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText"
         app:layout_constraintVertical_bias="0.36" />
 
     <TextView

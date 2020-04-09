@@ -9,18 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserAfterLogin"></activity>
-        <activity android:name=".UserSignUp" />
-        <activity android:name=".ShopKeeperSignUp" />
-        <activity android:name=".User" />
-        <activity android:name=".Shopkeeper" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Start_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UserAfterLogin" />
+        <activity android:name=".UserSignUp" />
+        <activity android:name=".ShopKeeperSignUp" />
+        <activity android:name=".User" />
+        <activity android:name=".Shopkeeper" />
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
