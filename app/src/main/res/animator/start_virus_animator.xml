@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <objectAnimator
+        android:propertyName="translationX"
+        android:valueTo="-550f"
+        android:duration="1500"/>
+
+    <objectAnimator
+        android:propertyName="rotation"
+        android:valueTo="-360f"
+        android:duration="200"
+        android:repeatMode="restart"
+        android:repeatCount="6"/>
+
+</set>
+
